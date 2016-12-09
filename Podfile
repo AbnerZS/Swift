@@ -1,18 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
-target 'ZSDemo' do
-pod 'AFNetworking'
-pod 'Masonry'
-pod 'MJRefresh'
-pod 'JSONModel'
-pod 'SDWebImage'
-pod 'NJKWebViewProgress'
-pod 'MBProgressHUD'
-
+target 'ZSSwiftDemo' do
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'Kingfisher'
+pod 'SnapKit'
+pod 'SwiftyJSON'
 
 end
-
-
-
-
